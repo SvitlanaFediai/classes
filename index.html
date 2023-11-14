@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="description" content="Starter">
+	<meta name="author" content="Admin">
+	<title>JS Classes</title>
+
+	<link rel="icon" href="./images/favicon.png">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+	<link rel="stylesheet" href="./css/styles.css">
+
+	<!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<div class="container">
+		<div class="content">
+			<div class="main">
+				<h1 class="title">World clock dashboard</h1>
+				<button type="button" class="open--btn">
+					<i class="fa-solid fa-circle-plus add--icon"></i>
+					Add New Country to clock dashboard
+				</button>
+	
+					<button type="button" class="btn--del"><i class="fa-regular fa-trash-can"></i></button>
+	
+				<div class="clock__dashboard"></div>
+			</div>
+			<footer>
+				<p class="text">Of all losses the loss of time is the worst one</p>
+				<a class="social__link" href="https://github.com/SvitlanaFediai/" target="”_blank”">
+					<img class="social--icon"
+						src="./images/github.svg"
+						alt="logo of github"
+						id="github-logo"
+					/>
+				</a>
+			</footer>
+		</div>
+		
+	</div>
+	
+	
+	<div class="window-overlay">
+		<div class="window">
+			<button type="button" class="close--btn">
+				<i class="fa-solid fa-xmark close--icon"></i>
+			</button>
+			<div>
+				<h2 class="window__title">Search cities</h2>
+			</div>
+			<div class="search__box">
+				<input type="text" placeholder="Search" class="search__input">
+				<i class="fa-solid fa-magnifying-glass search--icon"></i>
+			</div>
+				<div class="cities__list">
+				</div>
+		</div>
+	</div>
+
+	<!-- Scripts -->
+
+	<script type="module" src="./js/main.js"></script>
+</body>
+</html>
